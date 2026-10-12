@@ -2,14 +2,12 @@
 
 Remote MCP server for [ResumeQuick](https://resumequick.app), a job-search companion. It gives Claude, ChatGPT, Codex, Cursor and any remote MCP client your real job-search context: your resumes and their history, the jobs you track and their fit analyses, the matches your job radar finds, mock interview results, offers, reminders and career memory. The client reads what is already there instead of asking you to retype it, and can act on it: edit or translate a resume, analyze a posting, tune the job search, export a PDF.
 
-| | |
-|---|---|
-| **Endpoint** | `https://mcp.resumequick.app/mcp` |
-| **Transport** | Streamable HTTP |
-| **Auth** | OAuth sign-in with your ResumeQuick account; a personal API key for clients without a browser |
-| **Registry** | `app.resumequick/resumequick` in the [official MCP Registry](https://registry.modelcontextprotocol.io) |
-| **Claude** | [ResumeQuick in Claude's connector directory](https://claude.ai/directory/connectors/resumequick) |
-| **Price** | Included on every ResumeQuick plan, the free one too |
+- **Endpoint:** `https://mcp.resumequick.app/mcp`
+- **Transport:** streamable HTTP
+- **Auth:** OAuth sign-in with your ResumeQuick account; a personal API key for clients without a browser
+- **Registry:** `app.resumequick/resumequick` in the [official MCP Registry](https://registry.modelcontextprotocol.io)
+- **Claude:** [ResumeQuick in Claude's connector directory](https://claude.ai/directory/connectors/resumequick)
+- **Price:** included on every ResumeQuick plan, the free one too
 
 This repository holds documentation and the registry manifest. The server is hosted by ResumeQuick; there is nothing to install or run.
 
