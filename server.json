@@ -1,0 +1,27 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "app.resumequick/resumequick",
+  "title": "ResumeQuick",
+  "description": "Your job search in one place: resumes, the jobs you track, daily matches, interviews, next step.",
+  "version": "1.0.3",
+  "websiteUrl": "https://resumequick.app/en/integrations",
+  "repository": {
+    "url": "https://github.com/resumequick/resumequick-mcp",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://resumequick.app/icon-512.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.resumequick.app/mcp"
+    }
+  ]
+}
