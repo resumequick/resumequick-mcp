@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "resumequick": {
+      "url": "https://mcp.resumequick.app/mcp",
+      "auth": { "CLIENT_ID": "cursor" }
+    }
+  }
+}

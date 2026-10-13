@@ -1,0 +1,15 @@
+{
+  "name": "resumequick",
+  "displayName": "ResumeQuick",
+  "version": "1.0.0",
+  "description": "Your job search in Cursor: resumes and their history, tracked jobs with fit analyses, job radar matches, mock interviews, offers and career memory, through the hosted ResumeQuick MCP server.",
+  "author": {
+    "name": "ResumeQuick",
+    "email": "hello@resumequick.app"
+  },
+  "homepage": "https://resumequick.app/en/integrations/cursor",
+  "repository": "https://github.com/resumequick/resumequick-mcp",
+  "license": "MIT",
+  "keywords": ["mcp", "resume", "job-search", "career", "interview"],
+  "logo": "assets/logo.png"
+}

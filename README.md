@@ -23,6 +23,14 @@ claude mcp add --transport http resumequick https://mcp.resumequick.app/mcp
 
 Step-by-step guides for each client live on the site and stay current there: **[resumequick.app/en/integrations](https://resumequick.app/en/integrations)** — Claude, ChatGPT, Codex, Cursor, OpenCode.
 
+### Install from this repository
+
+This repository is also a plugin or extension for clients that install from Git:
+
+- **Cursor:** a Cursor plugin (`.cursor-plugin/plugin.json` and `mcp.json`). The `auth` block with `"CLIENT_ID": "cursor"` lets Cursor sign in.
+- **Gemini CLI:** `gemini extensions install https://github.com/resumequick/resumequick-mcp`, then `/mcp auth resumequick` to sign in.
+- **Cline and other agents:** setup steps for an agent to follow are in [`llms-install.md`](llms-install.md).
+
 Scripts and clients that can't open a sign-in page use a personal API key from your ResumeQuick settings, sent as `Authorization: Bearer <key>`.
 
 ## What it can do
